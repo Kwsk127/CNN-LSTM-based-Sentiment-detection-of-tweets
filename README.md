@@ -7,7 +7,7 @@ This repository contains a Jupyter Notebook implementing a sentiment analysis mo
 The notebook performs sentiment analysis on a dataset of 1.6 million tweets, leveraging a combination of Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) networks. The pipeline includes data preprocessing, tokenization, model training, and evaluation, achieving an accuracy of approximately 82.2% on the test set.
 
 ### Key Features
-- **Dataset**: Sentiment140 dataset with 1.6 million tweets.
+- **Dataset**: Sentiment140 dataset with 1.6 million tweets. available at https://www.kaggle.com/datasets/kazanova/sentiment140
 - **Preprocessing**: Text cleaning, tokenization, and padding using NLTK and Keras.
 - **Model**: Hybrid CNN-LSTM architecture with embedding, convolutional, pooling, LSTM, and dense layers.
 - **Evaluation**: Accuracy, classification report, and confusion matrix visualization.
