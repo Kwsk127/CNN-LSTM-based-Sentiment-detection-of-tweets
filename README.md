@@ -41,35 +41,6 @@ nltk.download('stopwords')
 nltk.download('punkt')
 ```
 
-## Setup
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
-
-2. **Download the Dataset**:
-   - The notebook uses the Sentiment140 dataset from Kaggle.
-   - Download it manually from [Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140) or use the Kaggle API:
-     ```bash
-     kaggle datasets download -d kazanova/sentiment140
-     unzip sentiment140.zip
-     ```
-   - Ensure the dataset file (`training.1600000.processed.noemoticon.csv`) is placed in the project directory.
-
-3. **Set Up Kaggle API** (if using Kaggle CLI):
-   - Upload your `kaggle.json` API key to the project directory.
-   - Set the Kaggle config directory:
-     ```python
-     import os
-     os.environ['KAGGLE_CONFIG_DIR'] = "/path/to/your/project"
-     ```
-   - Secure the API key file:
-     ```bash
-     chmod 600 kaggle.json
-     ```
-
 ## Usage
 
 1. **Open the Notebook**:
